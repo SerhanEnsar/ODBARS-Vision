@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Dataset (too large for git)
+dataset/images/
+dataset/labels/
+runs/
+
+# Blender temp
+*.blend1
+*.blend2
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backgrounds (user-provided)
+backgrounds/
