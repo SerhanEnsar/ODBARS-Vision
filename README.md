@@ -8,8 +8,9 @@ A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehi
 
 <table>
   <tr>
-    <td><img src="docs/images/gui_01.png" width="460"/></td>
-    <td><img src="docs/images/gui_02.png" width="460"/></td>
+    <td><img src="docs/images/gui_01.png" width="300"/></td>
+    <td><img src="docs/images/gui_02.png" width="300"/></td>
+    <td><img src="docs/images/gui_03.jpg" width="300"/></td>
   </tr>
 </table>
 
@@ -17,9 +18,8 @@ A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehi
 
 <table>
   <tr>
-    <td><img src="docs/images/sample_01.jpg" width="300"/></td>
-    <td><img src="docs/images/sample_02.jpg" width="300"/></td>
-    <td><img src="docs/images/sample_03.jpg" width="300"/></td>
+    <td><img src="docs/images/sample_01.jpg" width="460"/></td>
+    <td><img src="docs/images/sample_02.jpg" width="460"/></td>
   </tr>
 </table>
 
