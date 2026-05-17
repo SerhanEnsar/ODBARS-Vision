@@ -1,4 +1,4 @@
-# ODBARS Vision — Blender Render Komutları
+# Synthetic Vision Vision — Blender Render Komutları
 
 ## Gereksinimler
 
@@ -95,7 +95,7 @@ Desktop/Renders/
 
 ## Roboflow'a Yükleme (Render Sonrası)
 
-1. Roboflow → `odbars-vision` projesi → **Upload Data**
+1. Roboflow → `synthetic vision-vision` projesi → **Upload Data**
 2. `images/train/` klasörünü sürükle-bırak
 3. "Upload Labels" seçeneğinde `labels/train/` klasörünü seç  
    *(Roboflow, YOLO `.txt` etiketlerini otomatik tanır)*

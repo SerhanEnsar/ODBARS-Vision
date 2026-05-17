@@ -1,5 +1,5 @@
 """
-ODBARS Veri Hazırlama Aracı
+Synthetic Vision Veri Hazırlama Aracı
 ============================
 Bu script iki görevi yerine getirir:
 1. Görüntü toplama: Kameradan video kaydederek frame'leri dataset'e ekler.
@@ -68,7 +68,7 @@ def capture_frames(cam_index: int, class_name: str, max_frames: int = 300):
                     (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
         cv2.putText(display, "S: Kaydet | Q: Cik",
                     (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 0), 1)
-        cv2.imshow("ODBARS - Frame Toplama", display)
+        cv2.imshow("Synthetic Vision - Frame Toplama", display)
 
         key = cv2.waitKey(1) & 0xFF
         if key == ord('s'):
@@ -145,7 +145,7 @@ def validate_labels():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="ODBARS Dataset Hazırlama")
+    parser = argparse.ArgumentParser(description="Synthetic Vision Dataset Hazırlama")
     parser.add_argument("--mode", choices=["capture", "split", "validate"], required=True)
     parser.add_argument("--cam", type=int, default=0, help="Kamera index")
     parser.add_argument("--class", dest="class_name", help="Çekilecek sınıf adı")

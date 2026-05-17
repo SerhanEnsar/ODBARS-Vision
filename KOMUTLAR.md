@@ -1,4 +1,4 @@
-# ODBARS Vision Core — Komut Referansı
+# Synthetic Vision Vision Core — Komut Referansı
 
 ## İlk Kurulum (Bir kez yapılır)
 
@@ -31,7 +31,7 @@ source venv/bin/activate && python main.py
 Başarılı çıktı:
 ```
 ✅ Kamera 0 (FWD) başarıyla açıldı.
-🚀 ODBARS Vision Core başlatılıyor...
+🚀 Synthetic Vision Vision Core başlatılıyor...
  * Running on http://127.0.0.1:8765
 ```
 

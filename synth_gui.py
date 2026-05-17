@@ -1,5 +1,5 @@
 """
-ODBARS Sentetik Veri Üretici — GUI Panel
+Synthetic Vision Sentetik Veri Üretici — GUI Panel
 Çalıştırma: python synth_gui.py
 Gereksinimler: pip install Pillow opencv-python
 """
@@ -269,7 +269,7 @@ def generate_dataset(cfg, progress_cb=None, log_cb=None):
 class SynthGUI:
     def __init__(self, root):
         self.root = root
-        root.title("ODBARS — GUNCEL VERSION")
+        root.title("Synthetic Vision — GUNCEL VERSION")
         root.resizable(False, False)
         root.configure(bg="#1a1a1a")
 
@@ -720,7 +720,7 @@ class SynthGUI:
     def _update_progress(self, val, pct):
         self.progress["value"] = val
         # Progress bar üzerinde yazı göstermek Tkinter'da zordur, label'ı güncelleyelim
-        self.root.title(f"ODBARS — %{int(pct)} Tamamlandı")
+        self.root.title(f"Synthetic Vision — %{int(pct)} Tamamlandı")
 
     def _show_blender_report(self):
         od = Path(self.blender_output_dir.get())

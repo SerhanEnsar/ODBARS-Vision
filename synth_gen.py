@@ -1,5 +1,5 @@
 """
-ODBARS Sentetik Veri Üretici (v2 — Şartnameye Uyumlu)
+Synthetic Vision Sentetik Veri Üretici (v2 — Şartnameye Uyumlu)
 =======================================================
 Şartname referansları:
   - Tabela: "Arial Black" yazı tipi, dış çapı 60cm, siyah zemin, beyaz kenarlık  (s.13)

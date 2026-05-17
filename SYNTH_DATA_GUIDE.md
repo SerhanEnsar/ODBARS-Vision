@@ -1,4 +1,4 @@
-# ODBARS — Sentetik Veri Üretim Hattı (3D & 2D)
+# Synthetic Vision — Sentetik Veri Üretim Hattı (3D & 2D)
 
 Bu dizin, TEKNOFEST 2026 İKA yarışması için gerekli olan sentetik eğitim verilerinin (tabelalar, engeller, hedefler) otomatik üretimi ve kontrolü için geliştirilen araçları içerir.
 
@@ -40,4 +40,4 @@ python3 "/Users/serhanensar/Documents/Proje/Control Panel/vision/synth_gui.py"
 *   `dataset/`: Üretilen görsellerin ve etiketlerin kaydedildiği varsayılan dizin.
 
 ---
-*Geliştirici: Antigravity AI — ODBARS Projesi*
+*Geliştirici: Antigravity AI — Synthetic Vision Projesi*

@@ -1,5 +1,5 @@
 """
-ODBARS Blender Dataset Renderer
+Synthetic Vision Blender Dataset Renderer
 ================================
 Blender Script Konsolu'ndan veya terminalden çalıştırın:
     blender --background --python blender_render.py

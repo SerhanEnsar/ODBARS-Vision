@@ -1,4 +1,4 @@
-# ODBARS Dataset Konfigürasyonu
+# Synthetic Vision Dataset Konfigürasyonu
 # YOLOv8 formatı - bu dosya model eğitiminde --data argümanı olarak kullanılır
 
 path: ./dataset  # dataset kök klasörü

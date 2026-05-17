@@ -1,4 +1,4 @@
-# 🎯 ODBARS Vision — Synthetic Data Generator
+# 🎯 Synthetic Vision Vision — Synthetic Data Generator
 
 A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehicle (UGV)** competition. Generates YOLO-compatible annotated datasets using both a **2D procedural renderer** (OpenCV/PIL) and a **3D photorealistic Blender pipeline** — no real-world data collection required.
 
@@ -39,7 +39,7 @@ A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehi
 | 1 | `stop` | STOP sign (circular, red border) |
 | 2 | `hedef` | Shooting target (A3 size, concentric circles, Şekil 5) |
 
-> Specs based on TEKNOFEST 2026 ODBARS UGV competition rulebook.
+> Specs based on TEKNOFEST 2026 Synthetic Vision UGV competition rulebook.
 
 ## 🛠 Tech Stack
 
@@ -109,7 +109,7 @@ python data_prep.py
 ## 📁 Project Structure
 
 ```
-ODBARS-Vision/
+Synthetic-Vision/
 ├── synth_gen.py        # 2D procedural generator + YOLO labeler
 ├── synth_gui.py        # Desktop GUI (Tkinter)
 ├── blender_render.py   # 3D Blender rendering pipeline
@@ -130,7 +130,7 @@ ODBARS-Vision/
 
 | Project | Description |
 |---|---|
-| [Odbars_Yazilim](https://github.com/SerhanEnsar/Odbars_Yazilim) | GCS Panel (React + Electron) for the ODBARS UGV |
+| [Synthetic Vision_Yazilim](https://github.com/SerhanEnsar/Synthetic Vision_Yazilim) | GCS Panel (React + Electron) for the Synthetic Vision UGV |
 
 ## 📄 License
 
