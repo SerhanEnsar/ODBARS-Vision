@@ -126,11 +126,9 @@ Synthetic-Vision/
         └── val/
 ```
 
-## 🔗 Related Projects
+## 👨‍💻 Developer
 
-| Project | Description |
-|---|---|
-| [Synthetic Vision_Yazilim](https://github.com/SerhanEnsar/Synthetic Vision_Yazilim) | GCS Panel (React + Electron) for the Synthetic Vision system |
+Created and developed by **[Serhan Ensar](https://github.com/SerhanEnsar)**.
 
 ## 📄 License
 
