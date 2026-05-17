@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Serhan Ensar. All rights reserved.
 """
 Synthetic Vision Blender Dataset Renderer
 ================================

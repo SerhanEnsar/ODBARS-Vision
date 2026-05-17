@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Serhan Ensar. All rights reserved.
 """
 Synthetic Vision Sentetik Veri Üretici — GUI Panel
 Çalıştırma: python synth_gui.py
