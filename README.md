@@ -1,6 +1,6 @@
-# 🎯 Synthetic Vision Vision — Synthetic Data Generator
+# 🎯 Synthetic Vision — Synthetic Data Generator
 
-A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehicle (UGV)** competition. Generates YOLO-compatible annotated datasets using both a **2D procedural renderer** (OpenCV/PIL) and a **3D photorealistic Blender pipeline** — no real-world data collection required.
+A synthetic training data pipeline for autonomous ground vehicle vision systems. Generates YOLO-compatible annotated datasets using both a **2D procedural renderer** (OpenCV/PIL) and a **3D photorealistic Blender pipeline** — no real-world data collection required.
 
 ## 📸 Screenshots
 
@@ -25,7 +25,7 @@ A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehi
 
 ## ✨ Features
 
-- **Procedural 2D Generator** (`synth_gen.py`) — Generates annotated images of competition-specific objects on randomized terrain backgrounds
+- **Procedural 2D Generator** (`synth_gen.py`) — Generates annotated images of target objects on randomized terrain backgrounds
 - **3D Blender Pipeline** (`blender_render.py`) — Photorealistic renders using Blender's Python API with displacement terrain, sign posts, and PBR materials
 - **Interactive GUI** (`synth_gui.py`) — Full-featured desktop interface to configure, run, and preview both generation pipelines
 - **Data Preparation** (`data_prep.py`) — Splits and validates dataset into train/val/test sets
@@ -39,7 +39,7 @@ A synthetic training data pipeline for the **TEKNOFEST 2026 Unmanned Ground Vehi
 | 1 | `stop` | STOP sign (circular, red border) |
 | 2 | `hedef` | Shooting target (A3 size, concentric circles, Şekil 5) |
 
-> Specs based on TEKNOFEST 2026 Synthetic Vision UGV competition rulebook.
+> Object specs are defined in the project configuration.
 
 ## 🛠 Tech Stack
 
@@ -130,7 +130,7 @@ Synthetic-Vision/
 
 | Project | Description |
 |---|---|
-| [Synthetic Vision_Yazilim](https://github.com/SerhanEnsar/Synthetic Vision_Yazilim) | GCS Panel (React + Electron) for the Synthetic Vision UGV |
+| [Synthetic Vision_Yazilim](https://github.com/SerhanEnsar/Synthetic Vision_Yazilim) | GCS Panel (React + Electron) for the Synthetic Vision system |
 
 ## 📄 License
 

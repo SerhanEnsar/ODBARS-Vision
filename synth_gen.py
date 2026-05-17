@@ -1,10 +1,10 @@
 """
-Synthetic Vision Sentetik Veri Üretici (v2 — Şartnameye Uyumlu)
+Synthetic Vision Sentetik Veri Üretici (v2)
 =======================================================
-Şartname referansları:
-  - Tabela: "Arial Black" yazı tipi, dış çapı 60cm, siyah zemin, beyaz kenarlık  (s.13)
-  - STOP:   Rampa yüzeyi üzerine boyanmış yazı (levha değil)                      (s.15)
-  - Hedef:  A3 boyutunda, çerçeveli, Şekil 5 benzeri atış hedefi                  (s.15)
+Nesne referansları:
+  - Tabela: "Arial Black" yazı tipi, dış çapı 60cm, siyah zemin, beyaz kenarlık
+  - STOP:   Rampa yüzeyi üzerine boyanmış yazı (levha değil)
+  - Hedef:  A3 boyutunda, çerçeveli, iç içe halkalı atış hedefi
 
 Kullanım:
     python synth_gen.py --n 200
@@ -28,7 +28,7 @@ except ImportError:
 IMG_W, IMG_H  = 640, 640
 DATASET_ROOT  = Path(__file__).parent / "dataset"
 
-# Şartnamede geçen parkur aşaması isimleri (tabela metinleri)
+# Tabela metinleri
 TABELA_TEXTS = [
     "SU GEÇİŞİ", "TAŞLI YOL", "KAYAR ENGEL",
     "TABELA", "DİK EĞİM", "YAN EĞİM", "ATIŞ",
@@ -76,9 +76,8 @@ def cv_to_pil(cv_img):
 
 def draw_tabela(canvas, x, y, radius):
     """
-    Şartnameye göre:
-    - Siyah dolu daire, beyaz kenarlık halkası
-    - İçinde Arial Black ile aşama ismi/numarası
+    Siyah dolu daire, beyaz kenarlık halkası.
+    İçinde Arial Black ile metin.
     x, y → merkez piksel | radius → piksel yarıçap
     """
     # ─ OpenCV ile zemin şeklini çiz ─

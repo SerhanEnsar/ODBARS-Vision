@@ -1,6 +1,6 @@
 # Synthetic Vision — Sentetik Veri Üretim Hattı (3D & 2D)
 
-Bu dizin, TEKNOFEST 2026 İKA yarışması için gerekli olan sentetik eğitim verilerinin (tabelalar, engeller, hedefler) otomatik üretimi ve kontrolü için geliştirilen araçları içerir.
+Bu dizin, otonom kara aracı görü sistemleri için gerekli olan sentetik eğitim verilerinin (tabelalar, engeller, hedefler) otomatik üretimi ve kontrolü için geliştirilen araçları içerir.
 
 ## 🚀 Hızlı Başlangıç
 

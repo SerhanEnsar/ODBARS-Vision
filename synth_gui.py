@@ -100,7 +100,7 @@ def _draw_text_centered(pil_img, cx, cy, text, font, fill=(235,235,235), shadow=
 
 
 def draw_tabela(canvas, x, y, radius, persp_strength=0.15):
-    """Şartname: Arial Black, siyah dolgu daire, beyaz dış kenarlık halkası."""
+    """Arial Black, siyah dolgu daire, beyaz dış kenarlık halkası."""
     # Dış siyah daire
     cv2.circle(canvas, (x, y), radius, (10, 10, 10), -1)
     # Beyaz dış kenarlık
